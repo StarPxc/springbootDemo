@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <property name="LOG_HOME" value="/logs/mama-bike/"/>
+    <property name="LOG_HOME" value="/Users/pxc/logs/guohe"/>
 
     <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
@@ -50,7 +50,7 @@
     </appender>
 
 
-    <logger name="com.guohe.bike" level="debug">
+    <logger name="com.guohe.just" level="debug">
         <appender-ref ref="normalLog"/>
         <appender-ref ref="errorLog"/>
     </logger>

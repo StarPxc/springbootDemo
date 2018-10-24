@@ -3,7 +3,7 @@ spring:
     name: springbootDemo
     password: 935377012
     username: root
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/guohe?characterEncoding=utf8&useSSL=true&serverTimezone=UTC
 
 #reids
 redis:
